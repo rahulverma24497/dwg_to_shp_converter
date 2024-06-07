@@ -38,5 +38,5 @@ python3 convert.py
 4. Now specify the location where you want your output files by clicking on next browse button
 5. After selecting folder location you can see location on UI
 6. Click on convert button to start the process
-7. After process is finished, you can see output files at the output location, this converter will produce 4 output files- .shp, 
+7. After process is finished, you can see output files at the output location, this converter will produce 4 output files- .shp, .shx, .dbf, .cpg
 
