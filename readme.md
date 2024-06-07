@@ -1,37 +1,38 @@
 ***This converter has been developed on ubuntu linux, so the setup is according to ubuntu***
 
-Install tkinter
+1. Install tkinter
 sudo apt install python3-tk
 
-Install additional libraries
+2. Install additional libraries
 sudo apt-get install xvfb
 sudo apt install qtwayland5 
 sudo apt install qt6-wayland
 
-Export Environmental variable
+3. Export Environmental variable
 export QT_QPA_PLATFORM=xcb
 
-create virtual environemnt
+4. Create virtual environemnt
 python3 -m venv venv
 
-actvate virtual environment
+5. Actvate virtual environment
 source venv/bin/activate
 
-install requirements
+6. Install requirements
 pip3 install -r requirements.txt
 
-get oda file converter .deb file from this link-
+7. Get oda file converter .deb file from this link-
 https://www.opendesign.com/guestfiles/oda_file_converter
 
-install deb file
+8. Install deb file
 cd Downloads
 sudo dpkg -i <deb file name>
 
 
-Run the convert script with command-
+9. Run the convert script with command-
 python3 convert.py
 
 
+UI Instructions
 1. An interface will pop up
 2. You will need to specify your .dwg file by clicking on 1st browse button
 3. After selecting file you can see location of file on UI
